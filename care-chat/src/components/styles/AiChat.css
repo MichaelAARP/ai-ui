@@ -1,0 +1,49 @@
+.ai-chat-wrapper {
+  background-color: white; /* ⬅️ White background */
+  padding: 4rem 20rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0; /* ⬅️ ensure no space below */
+}
+
+.ai-chat-text {
+  max-width: 60%;
+}
+
+.ai-chat-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black; /* ⬅️ ensure title is black */
+}
+
+.ai-chat-subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: black; /* ⬅️ set subheader to black */
+}
+
+.ai-chat-image img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ai-chat-placeholder {
+  margin-top: 0; /* ⬅️ ensure no space above */
+  border: 2px dashed #ccc;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fafafa;
+  color: #888;
+  font-style: italic;
+  min-height: 300px;
+}

@@ -1,0 +1,103 @@
+.aarp-header {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.aarp-top-bar {
+  background-color: #ec1300;
+  color: white;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aarp-top-bar,
+.aarp-bottom-bar {
+  padding: 0.75rem 10rem; /* ⬅️ adds left/right padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.aarp-logo {
+  height: 30px;
+}
+
+.aarp-top-right {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.aarp-top-right a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.rewards-link .star-icon {
+  color: white;
+  margin-right: 0.25rem;
+  font-size: 1.5rem;
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.aarp-bottom-bar {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 10rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.aarp-bottom-left,
+.aarp-bottom-right {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.aarp-bottom-bar a {
+  text-decoration: none;
+  color: black;
+}
+.profile-icon {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  box-sizing: content-box;
+}
+
+.divider {
+  width: 1px;
+  height: 1rem;
+  background-color: #ccc;
+  display: inline-block;
+}
+.question-icon {
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+.search-icon {
+  font-size: 1rem;
+}

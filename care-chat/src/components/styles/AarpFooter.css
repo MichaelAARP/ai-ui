@@ -1,0 +1,56 @@
+.aarp-footer {
+  background-color: #77726b;
+  color: white;
+  font-family: sans-serif;
+  padding: 4rem 6rem; /* top/bottom, left/right */
+  box-sizing: border-box;
+  min-height: 350px;
+}
+
+
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 3rem;
+}
+
+.footer-left {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+}
+
+.footer-logo {
+  height: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 280px;
+}
+
+.footer-right {
+  flex: 0 0 75%;
+  box-sizing: border-box;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1.5rem;
+  column-gap: 2rem;
+}
+
+.footer-grid a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.footer-grid a:hover {
+  text-decoration: underline;
+}
