@@ -80,7 +80,7 @@ const AarpHeader = () => (
         <a href="#">More...</a>
       </div>
       <div className="aarp-bottom-right">
-        <a href="#">AARP EN ESPANOL</a>
+        <a href="#">AARP EN ESPAÑOL</a>
         <span className="divider" />
         <a href="#">
           Help <span className="question-icon">?</span>

@@ -20,14 +20,14 @@
 
 .ai-chat-title {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: black; /* ⬅️ ensure title is black */
 }
 
 .ai-chat-subtitle {
   margin: 0.5rem 0 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: black; /* ⬅️ set subheader to black */
 }
 
@@ -40,10 +40,10 @@
 .ai-chat-placeholder {
   margin-top: 0; /* ⬅️ ensure no space above */
   border: 2px dashed #ccc;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
   background-color: #fafafa;
   color: #888;
   font-style: italic;
-  min-height: 300px;
+  min-height: 500px;
 }

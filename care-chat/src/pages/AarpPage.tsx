@@ -6,7 +6,9 @@ import AiChat from '../components/AiChat';
 const AarpPage = () => (
   <div className="page-container">
     <AarpHeader />
+    <main className="page-main">
     <AiChat />
+    </main>
     <AarpFooter />
   </div>
 );

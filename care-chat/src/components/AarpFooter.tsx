@@ -63,12 +63,12 @@ const AarpFooter = () => (
 
           <a href="#">Volunteer</a>
           <a href="#">Careers at AARP</a>
-          <a href="#">AARP En Espanol</a>
+          <a href="#">AARP En Español</a>
           <a href="#">Senior Planet | OATS</a>
 
           <a href="#">Membership</a>
           <a href="#">AARP Services Inc.</a>
-          <a href="#">AARP PLACEHOLDER</a>
+          <a href="#">AARP 樂齡會</a>
           <a href="#">AgeTech Collaborative</a>
 
           <a href="#">AARP Rewards</a>
