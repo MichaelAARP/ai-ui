@@ -6,7 +6,7 @@ const AiChat = () => (
   <div className="ai-chat-wrapper">
     <div className="ai-chat-header">
       <div className="ai-chat-text">
-        <h2 className="ai-chat-title">Doc Meredith: Your Caregiving Advocate</h2>
+        <h2 className="ai-chat-title">Meredith: Your Caregiving Advocate</h2>
         {/* <p className="ai-chat-subtitle">
           Meredith is a caregiving advocate here to help with your questions.
         </p> */}
