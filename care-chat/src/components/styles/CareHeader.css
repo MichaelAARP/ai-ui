@@ -29,3 +29,27 @@
   font-size: 0.95rem;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .care-header-container {
+    flex-direction: column;
+    padding: 0.75rem 2rem;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .care-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .care-nav {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .care-nav-item {
+    font-size: 1rem;
+  }
+}

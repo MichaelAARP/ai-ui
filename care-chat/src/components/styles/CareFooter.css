@@ -56,3 +56,27 @@
   border-top: 1px solid #ccc;
   margin: 1rem 0;
 }
+
+@media (max-width: 600px) {
+  .care-footer-top,
+  .care-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .care-footer-right {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .footer-benefits-link,
+  .footer-secondary-link,
+  .care-footer-right a {
+    font-size: 1rem;
+  }
+
+  .footer-rights-text {
+    font-size: 0.85rem;
+  }
+}

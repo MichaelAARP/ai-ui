@@ -54,3 +54,34 @@
 .footer-grid a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 900px) {
+  .aarp-footer {
+    padding: 2rem;
+    min-height: auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-left,
+  .footer-right {
+    flex: 1 1 100%;
+  }
+
+  .footer-description {
+    max-width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  .footer-grid a {
+    font-size: 0.9rem;
+  }
+}

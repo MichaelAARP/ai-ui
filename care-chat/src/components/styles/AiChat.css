@@ -48,3 +48,43 @@
   font-style: italic;
   min-height: 500px;
 }
+
+@media (max-width: 1024px) {
+  .ai-chat-wrapper {
+    padding: 3rem 8rem;
+  }
+
+  .ai-chat-text {
+    max-width: 90%;
+  }
+
+  .ai-chat-title {
+    font-size: 1.75rem;
+  }
+
+  .ai-chat-subtitle {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ai-chat-wrapper {
+    padding: 2rem;
+  }
+
+  .ai-chat-text {
+    max-width: 100%;
+  }
+
+  .ai-chat-title {
+    font-size: 1.5rem;
+  }
+
+  .ai-chat-subtitle {
+    font-size: 1rem;
+  }
+
+  .ai-chat-image img {
+    width: 80px;
+  }
+}

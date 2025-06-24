@@ -101,3 +101,46 @@
 .search-icon {
   font-size: 1rem;
 }
+
+@media (max-width: 1200px) {
+  .aarp-top-bar,
+  .aarp-bottom-bar {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .aarp-top-bar,
+  .aarp-bottom-bar {
+    flex-direction: column;
+    padding: 0.75rem 1rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .aarp-top-right,
+  .aarp-bottom-left,
+  .aarp-bottom-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .aarp-bottom-bar {
+    font-size: 0.85rem;
+  }
+
+  .aarp-logo {
+    height: 24px;
+  }
+
+  .profile-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .search-icon {
+    font-size: 0.9rem;
+  }
+}
