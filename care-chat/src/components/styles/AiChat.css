@@ -50,7 +50,7 @@
    /* border: solid 1px red; */
 }
 
-@media (max-width: 1321px) {
+@media (max-width: 1432px) {
   .ai-chat-wrapper {
     padding: 4rem 14rem;
   }
