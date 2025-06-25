@@ -1,5 +1,5 @@
 import './styles/AiChat.css';
-import meredithImg from '../assets/meredith.png'; // adjust path if needed
+import meredithImg from '../assets/meredith.png';
 import React from 'react'
 
 const AiChat = () => (
@@ -23,7 +23,7 @@ const AiChat = () => (
           height: '600px', 
           border: '1px solid #ddd', 
           borderRadius: '8px',
-          overflow: 'hidden'
+          overflow: 'hidden',
         }
       }, 
         React.createElement('iframe', {
@@ -33,7 +33,7 @@ const AiChat = () => (
             height: '100%',
             border: 'none',
           },
-          title: 'Chainlit Chat'
+          // title: 'Chainlit Chat'
         })
       )}
     </div>
