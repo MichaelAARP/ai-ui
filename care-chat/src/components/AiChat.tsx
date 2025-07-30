@@ -39,6 +39,7 @@ const AiChat = () => (
           })
         )}
       </div>
+      <p className='disclaimer'>We do not store or retain any information you provide.</p>
     </div>
   </div>
 );

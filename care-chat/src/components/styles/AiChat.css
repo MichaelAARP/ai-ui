@@ -69,6 +69,12 @@
   overflow: hidden;
 }
 
+.disclaimer{
+  font-style: italic;
+  color: #6b7280; /* subtle gray */
+  font-size: 0.9rem;
+}
+
 @media (max-width: 1580px) {
   .ai-chat-wrapper {
     padding: 4rem 14rem;
