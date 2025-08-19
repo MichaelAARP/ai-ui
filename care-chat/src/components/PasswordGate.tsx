@@ -30,6 +30,10 @@ const PasswordGate = ({ children }: { children: React.ReactNode }) => {
       height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center',
       backgroundColor: '#185d28', color: 'white', flexDirection: 'column'
     }}>
+    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '2rem' }}>
+        <img src="/logo.png" alt="Greenhouse Logo" style={{ height: '40px', marginRight: '0.5rem' }} />
+        <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'white' }}>ATC Greenhouse</span>
+      </div>
       <p>Enter Password to Continue</p>
       <form onSubmit={handleSubmit}>
         <input
