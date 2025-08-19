@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const CORRECT_PASSWORD = '8a485f7f'; // update password as needed
+const CORRECT_PASSWORD = 'andrewtest'; // update password as needed
 
 const PasswordGate = ({ children }: { children: React.ReactNode }) => {
   const [authenticated, setAuthenticated] = useState(false);
